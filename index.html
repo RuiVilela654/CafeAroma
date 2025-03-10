@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aroma ☕</title>
+    <style>
+        /* Estilo básico */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header,
+        nav,
+        section,
+        footer {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        header {
+            background-color: #d2691e;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        /* Menu animado */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #d2691e;
+            padding: 10px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #d2691e;
+            color: white;
+        }
+
+        /* Estilo de imagem */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilo de layout */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* FAQ */
+        .pergunta {
+            font-weight: bold;
+            color: #d2691e;
+        }
+
+        .resposta {
+            margin-left: 20px;
+            color: #333;
+            font-style: italic;
+        }
+
+        /* Tabela */ 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #d2691e;
+            color: white;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+    
+    <!-- <link href="cafe.css" rel="stylesheet"/> -->
+</head>
+
+<body>
+
+    <header>
+        <h1>Café Aroma</h1>
+        <p>Sinta o aroma do café perfeito ☕</p> <!-- &#9749; -->
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#testemunhos">Testemunhos</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#informacoes">Informações Adicionais</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>O Café Aroma foi fundado em 2010 com a missão de trazer o melhor café artesanal para a cidade. Com grãos
+            selecionados e uma paixão pela arte de servir café, somos o ponto de encontro perfeito para amantes de café
+            e de momentos especiais.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus ut lorem at venenatis. Phasellus
+            egestas libero a auctor ullamcorper. Vivamus id aliquet elit.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>Café Expresso - 1.50&euro;</li>
+            <li>Cappuccino - 2.00€</li>
+            <li>Bolo de Chocolate - 2.50€</li>
+            <li>Sanduíche de Queijo e Presunto - 3.00€</li>
+            <li>Sumo Natural - 2.00€</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <blink>
+            <h2>Galeria</h2>
+        </blink>om
+        <img src="https://picsum.photos/600/400?random=1" alt="Interior do Café Aroma" title="Interior do Café Aroma">
+        <img src="https://picsum.photos/600/400?random=2" alt="Bebida servida no café" title="Interior do Café Aroma">
+        <img src="https://picsum.photos/600/400?random=3" alt="Prato servido no café" title="Prato servido no café">
+    </section>
+
+    <section id="testemunhos">
+        <h2>Testemunhos de Clientes</h2>
+        <p><q>O melhor café da cidade! Sempre fresco e delicioso.</q> - <b>João Silva</b></p>
+        <p><q>Ambiente acolhedor e o atendimento é excelente!</q> - <b>Maria Costa</b></p>
+        <p>"Um lugar perfeito para relaxar com uma bebida de qualidade." - <b>Pedro Martins</b></p>
+        <p>"O bolo de chocolate é imperdível! Voltarei sempre!" - <b>Ana Pereira</b></p>
+    </section>
+
+    <section id="faq">
+        <h2>Perguntas Frequentes</h2>
+        <p class="pergunta">Qual o horário de funcionamento?</p>
+        <p class="resposta">Segunda a Sábado, das 8h às 19h.</p>
+
+        <p class="pergunta">O café possui opções vegetarianas?</p>
+        <p class="resposta">Sim, oferecemos sanduíches e saladas vegetarianas.</p>
+
+        <p class="pergunta">Oferecem wi-fi gratuito?</p>
+        <p class="resposta">Sim, todos os clientes têm acesso gratuito ao wi-fi.</p>
+
+        <p class="pergunta">O café tem espaços ao ar livre?</p>
+        <p class="resposta">Sim, temos um terraço agradável para os dias de sol.</p>
+    </section>
+
+    <section id="informacoes">
+    <h2>Informações Adicionais</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Serviço</th>
+                <th>Detalhes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Horário de Funcionamento</td>
+                <td>Segunda a Sábado, das 8h às 19h</td>
+            </tr>
+            <tr>
+                <td>Serviços Oferecidos</td>
+                <td>Café, Bolos, Sanduíches, Sucos, Wi-Fi Gratuito</td>
+            </tr>
+            <tr>
+                <td>Métodos de Pagamento</td>
+                <td>Dinheiro, Cartão de Crédito, Cartão de Débito</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Morada: Rua do Aroma, nº 25, Lisboa</p>
+        <p>Horário: Segunda a Sábado, das 8h às 19h</p>
+        <p>Email: <a href="mailto:info@cafearoma.com">info@cafearoma.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Café Aroma &hearts;. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
